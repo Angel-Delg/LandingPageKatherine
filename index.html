@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Landing Page Katherine</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#d90062">
+    <!-- Tipografia -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Source+Sans+3:ital,wght@1,600&family=Source+Sans+Pro:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/icon/favicon.png" type="image/favicon-icon">
+    <link rel="apple-touch-icon" href="assets/icon/favicon.png">
+</head>
+<body>
+    <header class="header">
+        <section class="header__container">
+            <div class="header__container-logo">
+                <a href="index.html"><i>KatherineLarios</i></a>
+            </div>
+            <div class="header__container-button">
+                <img class="bar" src="assets/icon/menu-barr.svg" alt="menu-bar">
+                <img class="none" src="assets/icon/menu-close.svg" alt="menu-close">
+            </div>
+            <nav class="header__container-nav ">
+                <a href="#inicio">Inicio</a>
+                <a href="#acerca">Acerca</a>
+                <a href="#momentos">Momentos</a>
+                <a href="#galeria">Galeria</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+        </section>
+    </header>
+    <!-- Aqui empieza el banner -->
+    <section id="inicio" class="home">
+        <article class="banner__img">
+            <aside class="banner__img-opacity">
+                <h2 class="banner__img-text">Hola soy Katherine, <br>Bienvenid@s <br>a mi sitio web</h2>
+                <a href="#contacto" class="btn">Contactame</a>
+            </aside>
+        </article>
+    </section>
+    <!-- Aqui empieza la información -->
+    <section id="acerca" class="about">
+        <article class="art-primary text-center">
+            <aside class="slogan text-center">
+                <h1>Katherine Larios</h1>
+                <h4>Estudiante de <i>Finanzas y Gestion Bancanria</i></h4>
+                <p>Mi nombres es <b><i>Katherine Dayana Larios Ramos</i></b> tengo la edad de 20 años, nací el 28 de noviembre del 2001, actualmente soy estudiante de la <a href="https://www.upoli.edu.ni" target="_blank">Universidad politecnica de Nicaragua</a>. Estudio la carrera de finanzas y gestion bancaria, cursando mi segundo año de la universidad, durante mi niñez y adolecencia estudie en el colegio público 14 de septiembre Bachillerandome con honores.</p>
+                <p>Soy una persona responsable y comprometida en lograr grandes cosas, aspiro a lograr mis metas a lo largo de la trayectoria de mi vida junto ami familia que son mi pilar de apoyo y con la ayuda de DIOS. </p>
+                <div class="about__link">
+                    <a href="index.html" rel="noopener" class="btn">Descarga mi<i>CV</i></a>
+                </div>
+            </aside>
+        </article>
+        <article class="slogan__img">
+            <img src="assets/img/perfil.jpeg" alt="perfil">
+        </article>
+    </section>
+    <!-- Aqui empieza el slider de imagenes -->
+    <section id="momentos" class="moments">
+        <article class="banner__img banner__img-2">
+            <aside class="banner__img-opacity banner__img-opacity2">
+                <div class="slider-container">
+                    <h2>Mis Momentos</h2>
+                    <article class="slider" style="--slider-bg-color:var(--third-color-alfha);">
+                        <input type="radio" name="cambios" id="imagen-1" checked>
+                        <input type="radio" name="cambios" id="imagen-2">
+                        <input type="radio" name="cambios" id="imagen-3">
+                        <input type="radio" name="cambios" id="imagen-4">
+                        <ul class="cambios">
+                            <li class="cambio">
+                                <img class="avatar" width="60px" src="assets/img/momento-1.jpeg" alt="momento-1">
+                                <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nesciunt itaque inventore amet maiores quia ullam assumenda aliquid, sit dolor!</blockquote>
+                            </li>
+                            <li class="cambio">
+                                <img class="avatar" width="60px" src="assets/img/momento-2.jpeg" alt="momento-2">
+                                <blockquote>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui id nobis totam eos odit nihil iste illo ab et architecto.</blockquote>
+                            </li>
+                            <li class="cambio">
+                                <img class="avatar" width="60px" src="assets/img/momento-3.jpeg" alt="momento-3">
+                                <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quisquam optio quas necessitatibus iusto atque commodi. Reiciendis explicabo facere pariatur.</blockquote>
+                            </li>
+                            <li class="cambio">
+                                <img class="avatar" width="60px" src="assets/img/momento-4.jpeg" alt="momento-4">
+                                <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente non delectus praesentium asperiores exercitationem. Architecto maiores assumenda facere delectus aut.</blockquote>
+                            </li>
+                        </ul>
+                        <aside class="slider-nav">
+                            <label for="imagen-1" id="dot-1"></label>
+                            <label for="imagen-2" id="dot-2"></label>
+                            <label for="imagen-3" id="dot-3"></label>
+                            <label for="imagen-4" id="dot-4"></label>
+                        </aside>
+                    </article>
+                </div>
+            </aside>
+        </article>
+    </section>
+    <!-- Aqui empieza la galeria -->
+    <section id="galeria" class="galery">
+        <h2>Mis Recuerdos</h2>
+
+        <a href="#recuerdo-1" class="galery-card">
+            <img src="assets/galery/galery1.jpeg" alt="foto-1">
+            <aside class="galery-card-info">
+                <div>
+                    <h3>Primer Recuerdo</h3>
+                    <p>Los recuerdos son los tesoros que se mantienen atrapados en el almacén de nuestras almas, para mantener el corazón caliente cuando estamos solos.</p>
+                </div>
+            </aside>
+        </a>
+        <a href="#recuerdo-2" class="galery-card">
+            <img src="assets/galery/galery2.jpeg" alt="foto-1">
+            <aside class="galery-card-info">
+                <div>
+                    <h3>segundo Recuerdo</h3>
+                    <p>El recuerdo es el único paraíso del cual no podemos ser expulsados.</p>
+                </div>
+            </aside>
+        </a>
+        <a href="#recuerdo-3" class="galery-card">
+            <img src="assets/galery/galery3.jpeg" alt="foto-1">
+            <aside class="galery-card-info">
+                <div>
+                    <h3>tercer Recuerdo</h3>
+                    <p>¡Ah qué grande es el mundo a la luz de las lámparas! <br />Y qué pequeño es a los ojos del recuerdo!</p>
+                </div>
+            </aside>
+        </a>
+        <a href="#recuerdo-4" class="galery-card"> 
+            <img src="assets/galery/galery9.jpeg" alt="foto-1">
+            <aside class="galery-card-info">
+                <div>
+                    <h3>Cuarto Recuerdo</h3>
+                    <p>Los recuerdos son como un jardín. Regularmente debes cuidar las flores agradables y quitar las malas hierbas invasoras.</p>
+                </div>
+            </aside>
+        </a>
+        <a href="#recuerdo-5" class="galery-card">
+            <img src="assets/galery/galery7.jpeg" alt="foto-1">
+            <aside class="galery-card-info">
+                <div>
+                    <h3>Quinto Recuerdo</h3>
+                    <p>La vida sería imposible si todo se recordase. El secreto está en saber elegir lo que debe olvidarse.</p>
+                </div>
+            </aside>
+        </a>
+        <a href="#recuerdo-6" class="galery-card">
+            <img src="assets/galery/galery8.jpeg" alt="foto-1">
+            <aside class="galery-card-info">
+                <div>
+                    <h3>sexto Recuerdo</h3>
+                    <p>Los recuerdos son los tesoros que se mantienen atrapados en el almacén de nuestras almas, para mantener el corazón caliente cuando estamos solos.</p>
+                </div>
+            </aside>
+        </a>
+    </section>
+
+    <!-- Ventana Modal para los articulos -->
+    <article class="modal" id="recuerdo-1">
+        <div class="modal-content">
+            <a href="#close" class="modal-close">
+                <img src="assets/icon/modal-close.svg" alt="close">
+            </a>
+            <article class="galery-modal">
+                <img src="assets/galery/galery1.jpeg" alt="primer-recuerdo">
+                <div class="galery-moda-info">
+                    <h3>Mi primer Recuerdo</h3>
+                    <p>Los recuerdos son los tesoros que se mantienen atrapados en el almacén de nuestras almas, para mantener el corazón caliente cuando estamos solos.</p>
+                    <aside class="galery-details">
+                        <small><b>Nombre:</b></small>
+                        <small>Katherine Dayana Larios Ramos</small>
+                        <small><b>Fecha:</b></small>
+                        <small>25 de octubre 2021</small>
+                    </aside>
+                </div>
+            </article>
+        </div>
+    </article>
+    <article class="modal" id="recuerdo-2">
+        <div class="modal-content">
+            <a href="#close" class="modal-close">
+                <img src="assets/icon/modal-close.svg" alt="close">
+            </a>
+            <article class="galery-modal">
+                <img src="assets/galery/galery2.jpeg" alt="primer-recuerdo">
+                <div class="galery-moda-info">
+                    <h3>Mi segundo Recuerdo</h3>
+                    <p>El recuerdo es el único paraíso del cual no podemos ser expulsados.</p>
+                    <aside class="galery-details">
+                        <small><b>Nombre:</b></small>
+                        <small>Katherine Dayana Larios Ramos</small>
+                        <small><b>Fecha:</b></small>
+                        <small></small>
+                    </aside>
+                </div>
+            </article>
+        </div>
+    </article>
+    <article class="modal" id="recuerdo-3">
+        <div class="modal-content">
+            <a href="#close" class="modal-close">
+                <img src="assets/icon/modal-close.svg" alt="close">
+            </a>
+            <article class="galery-modal">
+                <img src="assets/galery/galery3.jpeg" alt="primer-recuerdo">
+                <div class="galery-moda-info">
+                    <h3>Mi tercer recuerdo</h3>
+                    <p>¡Ah qué grande es el mundo a la luz de las lámparas! <br />Y qué pequeño es a los ojos del recuerdo!</p>
+                    <aside class="galery-details">
+                        <small><b>Nombre:</b></small>
+                        <small>Katherine Dayana Larios Ramos</small>
+                        <small><b>Fecha:</b></small>
+                        <small></small>
+                    </aside>
+                </div>
+            </article>
+        </div>
+    </article>
+    <article class="modal" id="recuerdo-4">
+        <div class="modal-content">
+            <a href="#close" class="modal-close">
+                <img src="assets/icon/modal-close.svg" alt="close">
+            </a>
+            <article class="galery-modal">
+                <img src="assets/galery/galery9.jpeg" alt="primer-recuerdo">
+                <div class="galery-moda-info">
+                    <h3>Mi cuarto Recuerdo</h3>
+                    <p>Los recuerdos son como un jardín. Regularmente debes cuidar las flores agradables y quitar las malas hierbas invasoras.</p>
+                    <aside class="galery-details">
+                        <small><b>Nombre:</b></small>
+                        <small>Katherine Dayana Larios Ramos</small>
+                        <small><b>Fecha:</b></small>
+                        <small></small>
+                    </aside>
+                </div>
+            </article>
+        </div>
+    </article>
+    <article class="modal" id="recuerdo-5">
+        <div class="modal-content">
+            <a href="#close" class="modal-close">
+                <img src="assets/icon/modal-close.svg" alt="close">
+            </a>
+            <article class="galery-modal">
+                <img src="assets/galery/galery7.jpeg" alt="quinto recuerdo">
+                <div class="galery-moda-info">
+                    <h3>Mi quinto Recuerdo</h3>
+                    <p>La vida sería imposible si todo se recordase. El secreto está en saber elegir lo que debe olvidarse.</p>
+                    <aside class="galery-details">
+                        <small><b>Nombre:</b></small>
+                        <small>Katherine Dayana Larios Ramos</small>
+                        <small><b>Fecha:</b></small>
+                        <small></small>
+                    </aside>
+                </div>
+            </article>
+        </div>
+    </article>
+    <article class="modal" id="recuerdo-6">
+        <div class="modal-content">
+            <a href="#close" class="modal-close">
+                <img src="assets/icon/modal-close.svg" alt="">
+            </a>
+            <article class="galery-modal">
+                <img src="assets/galery/galery8.jpeg" alt="sexto-recuerdo">
+                <div class="galery-moda-info">
+                    <h3>Mi sexto Recuerdo</h3>
+                    <p>Los recuerdos son los tesoros que se mantienen atrapados en el almacén de nuestras almas, para mantener el corazón caliente cuando estamos solos.</p>
+                    <aside class="galery-details">
+                        <small><b>Nombre:</b></small>
+                        <small>Katherine Dayana Larios Ramos</small>
+                        <small><b>Fecha:</b></small>
+                        <small></small>
+                    </aside>
+                </div>
+            </article>
+        </div>
+    </article>
+
+    <!-- Aqui empieza la sección de contacto -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2 class="section-title">¿Cómo contactarme?</h2>
+            <article class="contact-cards">
+                <aside class="contact-card box-shadow-1">
+                    <img src="assets/icon/contact-location.svg" alt="location">
+                    <h3>Ubicación</h3>
+                    <small><i>Nicaragua, Ciudad de Mangua</i></small>
+                </aside>
+                <aside class="contact-card box-shadow-1">
+                    <img src="assets/icon/contact-phone.svg" alt="phone">
+                    <h3>Teléfono</h3>
+                    <a href="tel:+505 86309628"><i>Iniciar Llamada</i></a>
+                </aside>
+                <aside class="contact-card box-shadow-1">
+                    <img src="assets/icon/contact-email.svg" alt="email">
+                    <h3><i>Correo Eléctronico</i></h3>
+                    <a href="mailto:katherineluc062@gmail.com" target="_blank"><i>Enviar Correo...</i></a>
+                </aside>
+                <aside class="contact-card box-shadow-1">
+                    <img src="assets/icon/service-smo.svg" alt="social">
+                    <h3>Social Media</h3>
+                    <small class="social-media">
+                        <a href="https://api.whatsapp.com/send?phone=+505 86309628" target="_blank">
+                            <img width="35px" src="assets/icon/whatsapp.png" alt="whatsapp-icon">
+                        </a>
+                        <a href="https://www.facebook.com/katherine.larios.52" target="_blank">
+                            <img width="35px" src="assets/icon/facebook.png" alt="facebook-icon">
+                        </a>
+                    </small>
+                </aside>
+            </article>
+            <!-- Aqui empieza el formulario -->
+            <form action="htttps://formsubmit.co/delgadoangel062@gmail.com" class="contact-form box-shadow-1" method="POST">
+                <input type="text" name="name" placeholder="Ingresa tu nombre" title="Nombre solo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$">
+                <input type="email" name="email" placeholder="Ingresa tu correo" title="email incorrecto" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$">
+                <textarea name="comments" placeholder="Escribe tu comentario" cols="40" rows="15"></textarea>
+                <div class="contact-form-loader contact-form-loader-none">
+                    <img src="assets/icon/loader.svg"alt="loader">
+                </div>
+                <input type="submit" class="btn" value="Enviar Mensaje">
+            </form>
+            <article id="gracias" class="modal">
+                <div class="modal-content">
+                    <article class="contact-form-response contact-form-loader-none">
+                        <h3>Muchas Gracias!! <br />por tu comentario</h3>
+                        <img src="assets/icon/happy-face.svg" alt="happy-face">
+                    </article>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer">
+        <small>Sitio diseñado por <a href="mailto:delgadoangel062@gmail.com" target="_blank rel="nooperner">@AngeLopez</a> &copy;2022</small>
+    </footer>
+    <!-- scripts -->
+    <script src="scripts.js"></script>
+</body>
+</html>
